@@ -1,0 +1,223 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+ul {
+  list-style: none;
+}
+
+body {
+  font-family: Roboto, sans-serif;
+  font-weight: normal;
+  font-size: 10.7px;
+  position: relative;
+  min-height: 100vh;
+}
+
+.wrapper {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  overflow: hidden;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  min-height: 100%;
+}
+
+.contain {
+  width: 1556px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.top-1-w {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.top1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: #efefee;
+  height: 54px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+ul.top-mnu-1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+ul.top-mnu-1 > li {
+  margin-right: 54px;
+}
+
+ul.top-mnu-1 > li > a {
+  color: #2f3131;
+  font-size: 16px;
+}
+
+.user-link {
+  height: 25px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #2f3131;
+  font-size: 16px;
+  display: inline-block;
+  padding-left: 40px;
+  background: url("/img/user.svg") no-repeat left center;
+}
+
+.top2 {
+  padding: 20px 0 16px 0;
+}
+
+.top-2-w {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+a.logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+a.logo > span {
+  font-weight: 700;
+  color: #2f3131;
+  font-size: 16px;
+  margin-left: 43px;
+}
+
+.top-2-conts {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.top-2-call {
+  text-align: center;
+  margin-left: 42px;
+}
+
+a.top2-phone {
+  display: block;
+  color: #000;
+  font-size: 18px;
+  font-weight: 700;
+  margin-bottom: 6px;
+}
+
+.top-phone-labal {
+  color: #2f3131;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.btn {
+  background-color: #ffcc34;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 42px;
+  padding: 0 20px;
+  border-radius: 8px;
+  -webkit-box-shadow: 0px 2px 0px rgba(0, 0, 0, 0.1);
+          box-shadow: 0px 2px 0px rgba(0, 0, 0, 0.1);
+  color: 2f3131;
+  font-weight: 700;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.btn:hover {
+  text-decoration: none;
+  background-color: #ddad1e;
+}
+
+.top-2-btn {
+  margin-left: 64px;
+  padding: 0 57px;
+}
+
+.top3 {
+  background-color: #00728f;
+}
+
+ul.top-mnu-2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+ul.top-mnu-2 > li > a {
+  height: 57px;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-size: 18px;
+  color: #fff;
+  font-weight: 700;
+  padding: 0 60px;
+}
+
+ul.top-mnu-2 > li > a:hover {
+  text-decoration: none;
+  background: #0b5366;
+}
+/*# sourceMappingURL=style.css.map */
